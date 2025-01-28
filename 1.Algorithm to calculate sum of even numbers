@@ -1,0 +1,9 @@
+BEGIN
+    PRINT "Enter a number (n):"
+    READ n
+    sum ← 0
+    FOR i ← 2 TO n STEP 2 DO
+        sum ← sum + i
+    END FOR
+    PRINT "Sum of even numbers:", sum
+END
